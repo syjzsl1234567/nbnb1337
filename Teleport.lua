@@ -147,7 +147,7 @@ end
 verifyBtn.MouseButton1Click:Connect(function()
     if Unlocked then return end
     if keyBox.Text==CorrectKey then
-        Unlocked=true tip.Text="解锁成功"
+        Unlocked=true tip.Text="解锁成功~"
         titleTxt.Text="玩家传送TG@NB1337JB"
         win.Size=fullSize
         keyBox:Destroy() verifyBtn:Destroy()
